@@ -1,0 +1,28 @@
+QMainWindow {}
+
+QMessageBox#quitMsgBox{
+    background-color:red;
+}
+
+SetFrom{
+    background-color:#EBF3F5;
+    border-radius: 10px;
+}
+
+QMenu {
+    background-color:#fff;
+    border: 2px solid #2c9dfc;
+    border-radius: 10px;
+    color:#333;
+}
+
+QMenu::item {
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 8px 25px;
+    margin: 2px 2px;
+    width:40px;
+}
+QMenu::item:selected {
+    background-color: #2c9dfc;
+}
